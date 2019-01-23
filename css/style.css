@@ -1,21 +1,21 @@
 .greenColor{
   background: #00c292;
-
 }
-.sideber{
+.sidebar{
   background: #fff;
   min-width: 250px;
   color: #686a76;
   border: 2px solid darkgreen;
   border-radius: 8px;
 }
-.sideber ul{
+.sidebar ul{
   padding: 15px 0;
-}
-.sideber ul li{
 
 }
-.sideber ul li a{
+.sidebar ul li{
+
+}
+.sidebar ul li a{
   padding: 10px 15px;
   text-decoration: none;
   display: block;
@@ -23,7 +23,7 @@
   border-left: 4px solid transparent;
   color: black;
 }
-.sideber ul li a:hover{
+.sidebar ul li a:hover{
   text-decoration: none;
   background: #33b35a;
   border-left: 4px solid #22773c;
