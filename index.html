@@ -52,14 +52,30 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-2">
-      <nav class="nav flex-column">
-        <div class="sideber">
+      <nav class="nav ">
+        <div class="sidebar">
           <ul class="list-unstyled">
             <li class="nav-item">
-              <a class="nav-link" href="#">Student</a>
+              <a href="#StudentSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Student</a>
+              <ul class="collapse list-unstyled" id="StudentSubmenu">
+                <li>
+                  <a href="#">Add Student</a>
+                </li>
+                <li>
+                  <a href="#">Student Details</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Class</a>
+              <a href="#classSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Class</a>
+              <ul class="collapse list-unstyled" id="classSubmenu">
+                <li>
+                  <a href="#">Add Class</a>
+                </li>
+                <li>
+                  <a href="#">Class Details</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Subject</a>
@@ -78,15 +94,7 @@
       </nav>
     </div>
     <div class="col-md-10">
-      <ul class="list-unstyled">
-        <li class="media">
-          <img src="..." class="mr-3" alt="...">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">List-based media object</h5>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          </div>
-        </li>
-      </ul>
+      
     </div>
   </div>
 </div>
