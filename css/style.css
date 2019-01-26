@@ -7,9 +7,9 @@
   color: #686a76;
   border: 2px solid darkgreen;
   border-radius: 8px;
+  margin-top: 20px;
 }
 .sidebar ul{
-  padding: 15px 0;
 
 }
 .sidebar ul li{
@@ -20,11 +20,13 @@
   text-decoration: none;
   display: block;
   font-weight: 300;
-  border-left: 4px solid transparent;
+
   color: black;
 }
 .sidebar ul li a:hover{
+  padding: 10px 15px;
   text-decoration: none;
+  display: block;
   background: #33b35a;
   border-left: 4px solid #22773c;
   color: #fff;
