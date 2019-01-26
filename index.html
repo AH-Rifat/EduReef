@@ -53,13 +53,61 @@
   <div class="row">
     <div class="col-md-2">
       <nav class="nav ">
-        <div class="sidebar">
+        <div class="sidebar" id="accordion">
           <ul class="list-unstyled">
             <li class="nav-item">
               <a href="#StudentSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Student</a>
-              <ul class="collapse list-unstyled" id="StudentSubmenu">
+              <ul class="collapse list-unstyled" id="StudentSubmenu" data-parent="#accordion">
                 <li>
-                  <a href="#">Add Student</a>
+                  <a href="#" data-toggle="modal" data-target="#exampleModal">Add Student</a>
+                  <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Registration No:</label>
+                                <input type="text" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">Admitted to:</label>
+                                <input type="text" class="form-control"></input>
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Date of Add:</label>
+                                <input type="text" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">Roll No:</label>
+                                <input type="text" class="form-control"></input>
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Name:</label>
+                                <input type="text" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">Date of Birth:</label>
+                                <input type="text" class="form-control"></input>
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Gender:</label>
+                                <input type="text" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">age:</label>
+                                <input type="text" class="form-control"></input>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Add</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </li>
                 <li>
                   <a href="#">Student Details</a>
@@ -68,7 +116,7 @@
             </li>
             <li class="nav-item">
               <a href="#classSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Class</a>
-              <ul class="collapse list-unstyled" id="classSubmenu">
+              <ul class="collapse list-unstyled" id="classSubmenu" data-parent="#accordion">
                 <li>
                   <a href="#">Add Class</a>
                 </li>
@@ -94,7 +142,7 @@
       </nav>
     </div>
     <div class="col-md-10">
-      
+
     </div>
   </div>
 </div>
