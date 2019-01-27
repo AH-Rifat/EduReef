@@ -66,38 +66,113 @@
                         <div class="modal-content">
 
                           <div class="modal-body">
-                            <form>
-                              <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Registration No:</label>
-                                <input type="text" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="message-text" class="col-form-label">Admitted to:</label>
-                                <input type="text" class="form-control"></input>
-                              </div>
-                              <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Date of Add:</label>
-                                <input type="text" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="message-text" class="col-form-label">Roll No:</label>
-                                <input type="text" class="form-control"></input>
-                              </div>
-                              <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Name:</label>
-                                <input type="text" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="message-text" class="col-form-label">Date of Birth:</label>
-                                <input type="text" class="form-control"></input>
-                              </div>
-                              <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Gender:</label>
-                                <input type="text" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="message-text" class="col-form-label">age:</label>
-                                <input type="text" class="form-control"></input>
+                            <form action="" method="post">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="col-4">
+                                    <div class="form-group">
+                                      <label class="col-form-label">Registration No:</label>
+                                      <input type="text" class="form-control">
+                                    </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="form-group">
+                                      <label class="col-form-label">Admitted to:</label>
+                                        <select class="form-control">
+                                          <option selected>Choose...</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="form-group">
+                                      <label class="col-form-label">Date of Add:</label>
+                                      <input type="date" class="form-control">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-6">
+                                    <div class="form-group">
+                                      <label class="col-form-label">Name:</label>
+                                      <input type="text" class="form-control">
+                                    </div>
+                                  </div>
+                                  <div class="col-6">
+                                    <div class="form-group">
+                                      <label class="col-form-label">Roll No:</label>
+                                      <input type="text" class="form-control"></input>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-4">
+                                    <div class="form-group">
+                                      <label class="col-form-label">Date of Birth:</label>
+                                      <input type="date" class="form-control"></input>
+                                    </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="form-group">
+                                      <label class="col-form-label">age:</label>
+                                      <input type="text" class="form-control"></input>
+                                    </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="form-group">
+                                      <label class="col-form-label">Gender:</label>
+                                      <select class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-12">
+                                    <div class="form-group">
+                                      <label class="col-form-label">Adress:</label>
+                                      <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-4">
+                                    <label class="col-form-label">Father Name:</label>
+                                    <input type="text" class="form-control"></input>
+                                  </div>
+                                  <div class="col-4">
+                                    <label class="col-form-label">Phone Number:</label>
+                                    <input type="number" class="form-control"></input>
+                                  </div>
+                                  <div class="col-4">
+                                    <label class="col-form-label"> Occupation:</label>
+                                    <input type="text" class="form-control"></input>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-4">
+                                    <label class="col-form-label">Mother Name:</label>
+                                    <input type="text" class="form-control"></input>
+                                  </div>
+                                  <div class="col-4">
+                                    <label class="col-form-label">Phone Number:</label>
+                                    <input type="number" class="form-control"></input>
+                                  </div>
+                                  <div class="col-4">
+                                    <label class="col-form-label"> Occupation:</label>
+                                    <input type="text" class="form-control"></input>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-12">
+                                    <div class="form-group">
+                                      <label>Upload image file</label>
+                                      <input type="file" class="form-control-file">
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </form>
                           </div>
