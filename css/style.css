@@ -3,7 +3,7 @@
 }
 .sidebar{
   background: #fff;
-  min-width: 250px;
+  width: 148%;
   color: #686a76;
   border: 2px solid darkgreen;
   border-radius: 8px;
